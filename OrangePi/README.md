@@ -45,6 +45,8 @@ If the board you get is the HAT version like 2.13inch e-Paper HAT, you can direc
  - Confirm that it worked by running the `gpio readall` command and confirming there is a BCM column:
  ![gpio readall](https://lh3.googleusercontent.com/u/0/d/14x9T6az7orXUInLT06qFlbyR_UlqtkYD=w1920-h937-iv1)
 
+##### Python
+
 #### Download samples
 
  - Open a terminal and download samples from git:
@@ -54,6 +56,6 @@ If the board you get is the HAT version like 2.13inch e-Paper HAT, you can direc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwNzczODgwLC0xMDM2NTA2OTI3LDE2OD
-gzODIyMDhdfQ==
+eyJoaXN0b3J5IjpbMTg3NDI4MTEsNzMwNzczODgwLC0xMDM2NT
+A2OTI3LDE2ODgzODIyMDhdfQ==
 -->
