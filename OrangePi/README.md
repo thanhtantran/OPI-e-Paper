@@ -47,7 +47,7 @@ ll /dev/spidev*;
 ##### Python
 ```
 sudo apt-get update
-sudo apt-get install python-dev
+sudo apt-get install python-dev python-pip python-pil python-numpy
 ```
 #### Download samples
 
@@ -58,6 +58,6 @@ cd /opt/e-Paper/OrangePi
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2Mzg0MjU5LDczMDc3Mzg4MCwtMTAzNj
-UwNjkyNywxNjg4MzgyMjA4XX0=
+eyJoaXN0b3J5IjpbMTMwNDUwMzksNDc2Mzg0MjU5LDczMDc3Mz
+g4MCwtMTAzNjUwNjkyNywxNjg4MzgyMjA4XX0=
 -->
