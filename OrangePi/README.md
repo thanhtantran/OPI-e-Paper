@@ -49,10 +49,11 @@ If the board you get is the HAT version like 2.13inch e-Paper HAT, you can direc
 
  - Open a terminal and download samples from git:
 >
-    sudo git clone https://github.com/Masatrad-com/e-Paper.git /opt/e-Paper;
+    git clone https://github.com/Masatrad-com/e-Paper.git /opt/e-Paper;
     cd /opt/e-Paper/OrangePi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY1MDY5MjcsMTY4ODM4MjIwOF19
+eyJoaXN0b3J5IjpbNzMwNzczODgwLC0xMDM2NTA2OTI3LDE2OD
+gzODIyMDhdfQ==
 -->
