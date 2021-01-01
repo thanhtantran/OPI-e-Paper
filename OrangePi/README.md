@@ -48,7 +48,7 @@ ll /dev/spidev*;
 ```
 sudo apt-get update
 sudo apt-get install python-dev python-pip python-pil python-numpy
-pip install setuptools
+sudo pip install setuptools
 ```
 #### Download samples
 
@@ -59,7 +59,7 @@ cd /opt/e-Paper/OrangePi
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODcwNDA2MjMsMTMwNDUwMzksNDc2Mz
-g0MjU5LDczMDc3Mzg4MCwtMTAzNjUwNjkyNywxNjg4MzgyMjA4
-XX0=
+eyJoaXN0b3J5IjpbLTk1NjgxMzYwOCwtMTI4NzA0MDYyMywxMz
+A0NTAzOSw0NzYzODQyNTksNzMwNzczODgwLC0xMDM2NTA2OTI3
+LDE2ODgzODIyMDhdfQ==
 -->
