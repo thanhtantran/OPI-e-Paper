@@ -27,9 +27,10 @@ sudo echo overlays=spi-spidev>>/boot/armbianEnv.txt;
 sudo echo param_spidev_spi_bus=0>>/boot/armbianEnv.txt;
 sudo reboot now;
 ```
- - Confirm that spi is accessible :
+ - Confirm that spi is accessible and make it available for all users :
 ```
 ll /dev/spidev*;
+sudo chmod 666 /dev/spidev0.0
 ```
 ![spidev0.0](https://lh6.googleusercontent.com/SucDwCPKHGtDnbgmvXJsPbOkZISM687Tg1UocDhTPzyizZ4s5LwDgw0ob2fRY5sX00NA-JOvnn1NiQ=w1920-h937)
 
@@ -62,7 +63,8 @@ cd /opt/e-Paper/OrangePi
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODc0Njc5LC0yMzE1MjY1ODcsLTk1Nj
-gxMzYwOCwtMTI4NzA0MDYyMywxMzA0NTAzOSw0NzYzODQyNTks
-NzMwNzczODgwLC0xMDM2NTA2OTI3LDE2ODgzODIyMDhdfQ==
+eyJoaXN0b3J5IjpbMTY2NTkzMjEwNiwxMzk4NzQ2NzksLTIzMT
+UyNjU4NywtOTU2ODEzNjA4LC0xMjg3MDQwNjIzLDEzMDQ1MDM5
+LDQ3NjM4NDI1OSw3MzA3NzM4ODAsLTEwMzY1MDY5MjcsMTY4OD
+M4MjIwOF19
 -->
