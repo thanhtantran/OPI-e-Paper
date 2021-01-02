@@ -32,7 +32,7 @@ sudo reboot now;
 ll /dev/spidev*;
 sudo chmod 666 /dev/spidev0.0
 ```
-![spidev0.0](https://lh6.googleusercontent.com/SucDwCPKHGtDnbgmvXJsPbOkZISM687Tg1UocDhTPzyizZ4s5LwDgw0ob2fRY5sX00NA-JOvnn1NiQ=w1920-h937)
+![spidev0.0](https://lh3.googleusercontent.com/u/0/d/1yJRSVAcWzIsOMU8RPNHjI1d5xYdBLaBG=w1920-h937-iv1)
 
 #### Libraries
 ##### WiringOP
@@ -63,8 +63,8 @@ cd /opt/e-Paper/OrangePi
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTgwODIyLDE2NjU5MzIxMDYsMTM5OD
-c0Njc5LC0yMzE1MjY1ODcsLTk1NjgxMzYwOCwtMTI4NzA0MDYy
-MywxMzA0NTAzOSw0NzYzODQyNTksNzMwNzczODgwLC0xMDM2NT
-A2OTI3LDE2ODgzODIyMDhdfQ==
+eyJoaXN0b3J5IjpbODA4NzM2NTU1LC01MTk4MDgyMiwxNjY1OT
+MyMTA2LDEzOTg3NDY3OSwtMjMxNTI2NTg3LC05NTY4MTM2MDgs
+LTEyODcwNDA2MjMsMTMwNDUwMzksNDc2Mzg0MjU5LDczMDc3Mz
+g4MCwtMTAzNjUwNjkyNywxNjg4MzgyMjA4XX0=
 -->
