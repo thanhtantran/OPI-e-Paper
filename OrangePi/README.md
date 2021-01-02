@@ -51,6 +51,7 @@ sudo apt-get install python-dev python-pip python-pil python-numpy
 sudo pip install setuptools
 sudo pip install wheel
 sudo pip install OrangePi.GPIO
+sudo pip install spidev
 ```
 #### Download samples
 
@@ -61,7 +62,7 @@ cd /opt/e-Paper/OrangePi
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTUyNjU4NywtOTU2ODEzNjA4LC0xMj
-g3MDQwNjIzLDEzMDQ1MDM5LDQ3NjM4NDI1OSw3MzA3NzM4ODAs
-LTEwMzY1MDY5MjcsMTY4ODM4MjIwOF19
+eyJoaXN0b3J5IjpbMTM5ODc0Njc5LC0yMzE1MjY1ODcsLTk1Nj
+gxMzYwOCwtMTI4NzA0MDYyMywxMzA0NTAzOSw0NzYzODQyNTks
+NzMwNzczODgwLC0xMDM2NTA2OTI3LDE2ODgzODIyMDhdfQ==
 -->
