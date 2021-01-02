@@ -49,7 +49,7 @@ sudo chmod 666 /dev/spidev0.0
 ```
 sudo apt-get update
 sudo apt-get install python-dev python-pip python-pil python-numpy
-sudo pip install setuptools
+??sudo pip install setuptools
 sudo pip install wheel
 sudo pip install OrangePi.GPIO
 sudo pip install spidev
@@ -63,8 +63,8 @@ cd /opt/e-Paper/OrangePi
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTkzMjEwNiwxMzk4NzQ2NzksLTIzMT
-UyNjU4NywtOTU2ODEzNjA4LC0xMjg3MDQwNjIzLDEzMDQ1MDM5
-LDQ3NjM4NDI1OSw3MzA3NzM4ODAsLTEwMzY1MDY5MjcsMTY4OD
-M4MjIwOF19
+eyJoaXN0b3J5IjpbLTUxOTgwODIyLDE2NjU5MzIxMDYsMTM5OD
+c0Njc5LC0yMzE1MjY1ODcsLTk1NjgxMzYwOCwtMTI4NzA0MDYy
+MywxMzA0NTAzOSw0NzYzODQyNTksNzMwNzczODgwLC0xMDM2NT
+A2OTI3LDE2ODgzODIyMDhdfQ==
 -->
