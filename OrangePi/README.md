@@ -61,11 +61,29 @@ sudo pip install spidev
 git clone https://github.com/Masatrad-com/e-Paper.git /opt/e-Paper;
 cd /opt/e-Paper/OrangePi
 ```
+#### Running examples
+-   C codes
 
+Find the main.c file, uncomment the definition of e-Paper types, then compile and run the codes.
+
+cd c
+make clean
+make
+sudo ./epd
+
+-   python
+
+Run examples, xxx is the name of the e-Paper. For example, if you want to run codes of 1.54inch e-Paper Module, you xxx should be epd_1in54  
+
+cd python/examples
+# python2
+sudo python xxx.py
+# python3
+sudo python3 xxx.py
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDUzNzkzMSw4MDg3MzY1NTUsLTUxOT
-gwODIyLDE2NjU5MzIxMDYsMTM5ODc0Njc5LC0yMzE1MjY1ODcs
-LTk1NjgxMzYwOCwtMTI4NzA0MDYyMywxMzA0NTAzOSw0NzYzOD
-QyNTksNzMwNzczODgwLC0xMDM2NTA2OTI3LDE2ODgzODIyMDhd
-fQ==
+eyJoaXN0b3J5IjpbNzkwMzQ3MzYwLDEwNTQ1Mzc5MzEsODA4Nz
+M2NTU1LC01MTk4MDgyMiwxNjY1OTMyMTA2LDEzOTg3NDY3OSwt
+MjMxNTI2NTg3LC05NTY4MTM2MDgsLTEyODcwNDA2MjMsMTMwND
+UwMzksNDc2Mzg0MjU5LDczMDc3Mzg4MCwtMTAzNjUwNjkyNywx
+Njg4MzgyMjA4XX0=
 -->
