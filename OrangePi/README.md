@@ -79,8 +79,11 @@ cd python/examples
 # python2
 sudo python xxx.py
 ```
+
+ - Known issue: I still don't know why, but when I first run the python script for the first time after rebooting I get the following error
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTAxMjE3MjQsLTE3NzY1MDY2MzAsLT
+eyJoaXN0b3J5IjpbLTEzMzAwNTM3MTMsLTE3NzY1MDY2MzAsLT
 k5NzI2NDYxMyw1NTQ1ODA3NzgsMTA1NDUzNzkzMSw4MDg3MzY1
 NTUsLTUxOTgwODIyLDE2NjU5MzIxMDYsMTM5ODc0Njc5LC0yMz
 E1MjY1ODcsLTk1NjgxMzYwOCwtMTI4NzA0MDYyMywxMzA0NTAz
