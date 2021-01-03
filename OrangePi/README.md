@@ -30,7 +30,6 @@ sudo reboot now;
  - Confirm that spi is accessible and make it available for all users :
 ```
 ll /dev/spidev*;
-sudo chmod 666 /dev/spidev0.0
 ```
 ![spidev0.0](https://lh3.googleusercontent.com/u/0/d/1yJRSVAcWzIsOMU8RPNHjI1d5xYdBLaBG=w1920-h937-iv1)
 
@@ -94,10 +93,10 @@ ValueError: This channel is already in use by system as SPI0_CS.
 
 For the moment the only workaround that I found is runing first  a couple of times the c example. That frees the systemp SPI0_CS and enable communications with e-paper. I would be very grateful if anyonce could help here.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDE2OTU2OCwtMTMzMDA1MzcxMywtMT
-c3NjUwNjYzMCwtOTk3MjY0NjEzLDU1NDU4MDc3OCwxMDU0NTM3
-OTMxLDgwODczNjU1NSwtNTE5ODA4MjIsMTY2NTkzMjEwNiwxMz
-k4NzQ2NzksLTIzMTUyNjU4NywtOTU2ODEzNjA4LC0xMjg3MDQw
-NjIzLDEzMDQ1MDM5LDQ3NjM4NDI1OSw3MzA3NzM4ODAsLTEwMz
-Y1MDY5MjcsMTY4ODM4MjIwOF19
+eyJoaXN0b3J5IjpbNjQ0OTMwMTc0LDEwNTAxNjk1NjgsLTEzMz
+AwNTM3MTMsLTE3NzY1MDY2MzAsLTk5NzI2NDYxMyw1NTQ1ODA3
+NzgsMTA1NDUzNzkzMSw4MDg3MzY1NTUsLTUxOTgwODIyLDE2Nj
+U5MzIxMDYsMTM5ODc0Njc5LC0yMzE1MjY1ODcsLTk1NjgxMzYw
+OCwtMTI4NzA0MDYyMywxMzA0NTAzOSw0NzYzODQyNTksNzMwNz
+czODgwLC0xMDM2NTA2OTI3LDE2ODgzODIyMDhdfQ==
 -->
