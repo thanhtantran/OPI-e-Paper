@@ -92,9 +92,9 @@ Traceback (most recent call last):
     self.GPIO.setup(self.CS_PIN, self.GPIO.OUT)
 ValueError: This channel is already in use by system as SPI0_CS.
 
-For the moment the only workaround that I found is runing first t
+For the moment the only workaround that I found is runing first  a couple of times the c example. That frees the systemp SPI0_CS and enable communications with e-paper. I would be very grateful if anyonce could help here.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTE2NzgzMSwtMTMzMDA1MzcxMywtMT
+eyJoaXN0b3J5IjpbMTA1MDE2OTU2OCwtMTMzMDA1MzcxMywtMT
 c3NjUwNjYzMCwtOTk3MjY0NjEzLDU1NDU4MDc3OCwxMDU0NTM3
 OTMxLDgwODczNjU1NSwtNTE5ODA4MjIsMTY2NTkzMjEwNiwxMz
 k4NzQ2NzksLTIzMTUyNjU4NywtOTU2ODEzNjA4LC0xMjg3MDQw
