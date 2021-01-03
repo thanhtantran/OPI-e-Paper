@@ -78,13 +78,11 @@ Run examples, xxx is the name of the e-Paper. For example, if you want to run co
 cd python/examples
 # python2
 sudo python xxx.py
-# python3
-sudo python3 xxx.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzI2NDYxMyw1NTQ1ODA3NzgsMTA1ND
-UzNzkzMSw4MDg3MzY1NTUsLTUxOTgwODIyLDE2NjU5MzIxMDYs
-MTM5ODc0Njc5LC0yMzE1MjY1ODcsLTk1NjgxMzYwOCwtMTI4Nz
-A0MDYyMywxMzA0NTAzOSw0NzYzODQyNTksNzMwNzczODgwLC0x
-MDM2NTA2OTI3LDE2ODgzODIyMDhdfQ==
+eyJoaXN0b3J5IjpbLTE3NzY1MDY2MzAsLTk5NzI2NDYxMyw1NT
+Q1ODA3NzgsMTA1NDUzNzkzMSw4MDg3MzY1NTUsLTUxOTgwODIy
+LDE2NjU5MzIxMDYsMTM5ODc0Njc5LC0yMzE1MjY1ODcsLTk1Nj
+gxMzYwOCwtMTI4NzA0MDYyMywxMzA0NTAzOSw0NzYzODQyNTks
+NzMwNzczODgwLC0xMDM2NTA2OTI3LDE2ODgzODIyMDhdfQ==
 -->
