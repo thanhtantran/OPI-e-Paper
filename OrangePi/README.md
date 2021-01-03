@@ -47,6 +47,7 @@ sudo chmod 666 /dev/spidev0.0
 
 ##### Python
 ```
+# python2
 sudo apt-get update
 sudo apt-get install python-dev python-pip python-pil python-numpy
 sudo pip install setuptools
@@ -81,9 +82,9 @@ sudo python xxx.py
 sudo python3 xxx.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0NTgwNzc4LDEwNTQ1Mzc5MzEsODA4Nz
-M2NTU1LC01MTk4MDgyMiwxNjY1OTMyMTA2LDEzOTg3NDY3OSwt
-MjMxNTI2NTg3LC05NTY4MTM2MDgsLTEyODcwNDA2MjMsMTMwND
-UwMzksNDc2Mzg0MjU5LDczMDc3Mzg4MCwtMTAzNjUwNjkyNywx
-Njg4MzgyMjA4XX0=
+eyJoaXN0b3J5IjpbLTk5NzI2NDYxMyw1NTQ1ODA3NzgsMTA1ND
+UzNzkzMSw4MDg3MzY1NTUsLTUxOTgwODIyLDE2NjU5MzIxMDYs
+MTM5ODc0Njc5LC0yMzE1MjY1ODcsLTk1NjgxMzYwOCwtMTI4Nz
+A0MDYyMywxMzA0NTAzOSw0NzYzODQyNTksNzMwNzczODgwLC0x
+MDM2NTA2OTI3LDE2ODgzODIyMDhdfQ==
 -->
