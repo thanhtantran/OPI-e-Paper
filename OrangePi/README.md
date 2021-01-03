@@ -73,16 +73,17 @@ sudo ./epd
 ```
 ##### python
 
-Run examples, xxx is the name of the e-Paper. For example, if you want to run codes of 1.54inch e-Paper Module, you xxx should be epd_1in54  
+Run examples, xxx is the name of the e-Paper. For example, if you want to run codes of 2.13inch V2 e-Paper Module, you xxx should be epd_1in13_V2  
 ```
 cd python/examples
 # python2
 sudo python xxx.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY1MDY2MzAsLTk5NzI2NDYxMyw1NT
-Q1ODA3NzgsMTA1NDUzNzkzMSw4MDg3MzY1NTUsLTUxOTgwODIy
-LDE2NjU5MzIxMDYsMTM5ODc0Njc5LC0yMzE1MjY1ODcsLTk1Nj
-gxMzYwOCwtMTI4NzA0MDYyMywxMzA0NTAzOSw0NzYzODQyNTks
-NzMwNzczODgwLC0xMDM2NTA2OTI3LDE2ODgzODIyMDhdfQ==
+eyJoaXN0b3J5IjpbLTIwNTAxMjE3MjQsLTE3NzY1MDY2MzAsLT
+k5NzI2NDYxMyw1NTQ1ODA3NzgsMTA1NDUzNzkzMSw4MDg3MzY1
+NTUsLTUxOTgwODIyLDE2NjU5MzIxMDYsMTM5ODc0Njc5LC0yMz
+E1MjY1ODcsLTk1NjgxMzYwOCwtMTI4NzA0MDYyMywxMzA0NTAz
+OSw0NzYzODQyNTksNzMwNzczODgwLC0xMDM2NTA2OTI3LDE2OD
+gzODIyMDhdfQ==
 -->
