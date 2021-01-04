@@ -17,7 +17,7 @@ If the board you get is the HAT version like 2.13inch e-Paper HAT, you can direc
 |RST|17|11|
 |BUSY|24|18|
 
-> Instead of CE1(26), you could also use CE0(24), but I found that Armbian reserves that for something else and before running you would need to release it. I lack knowledge to ti
+> Instead of CE1(26), you could also use CE0(24), but I found that Armbian reserves that for something else and before running you would need to release it after every reboot. I lack knowledge to this respect, so I could not figure out a way of releasing it directly from python and I had to run some code in c to do it, so in the end I just modified the channel. Feel free to share any input on that
 
 #### Enable SPI interface
 
@@ -95,11 +95,11 @@ ValueError: This channel is already in use by system as SPI0_CS.
 
 For the moment the only workaround that I found is runing first  a couple of times the c example. That frees the systemp SPI0_CS and enable communications with e-paper. I would be very grateful if anyonce could help here.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3ODk1NzUwLDE3MTQ5Njg0MTUsNjQ0OT
-MwMTc0LDEwNTAxNjk1NjgsLTEzMzAwNTM3MTMsLTE3NzY1MDY2
-MzAsLTk5NzI2NDYxMyw1NTQ1ODA3NzgsMTA1NDUzNzkzMSw4MD
-g3MzY1NTUsLTUxOTgwODIyLDE2NjU5MzIxMDYsMTM5ODc0Njc5
-LC0yMzE1MjY1ODcsLTk1NjgxMzYwOCwtMTI4NzA0MDYyMywxMz
-A0NTAzOSw0NzYzODQyNTksNzMwNzczODgwLC0xMDM2NTA2OTI3
-XX0=
+eyJoaXN0b3J5IjpbMTA4MjI3ODk3NiwxNzE0OTY4NDE1LDY0ND
+kzMDE3NCwxMDUwMTY5NTY4LC0xMzMwMDUzNzEzLC0xNzc2NTA2
+NjMwLC05OTcyNjQ2MTMsNTU0NTgwNzc4LDEwNTQ1Mzc5MzEsOD
+A4NzM2NTU1LC01MTk4MDgyMiwxNjY1OTMyMTA2LDEzOTg3NDY3
+OSwtMjMxNTI2NTg3LC05NTY4MTM2MDgsLTEyODcwNDA2MjMsMT
+MwNDUwMzksNDc2Mzg0MjU5LDczMDc3Mzg4MCwtMTAzNjUwNjky
+N119
 -->
