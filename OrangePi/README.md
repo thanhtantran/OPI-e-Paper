@@ -12,7 +12,7 @@ If the board you get is the HAT version like 2.13inch e-Paper HAT, you can direc
 |GND|GND|GND|
 |DIN|MOSI|19|
 |CLK|SCLK|23|
-|CS|CE0|24|
+|CS|CE1|26|
 |DC|25|22|
 |RST|17|11|
 |BUSY|24|18|
@@ -93,10 +93,11 @@ ValueError: This channel is already in use by system as SPI0_CS.
 
 For the moment the only workaround that I found is runing first  a couple of times the c example. That frees the systemp SPI0_CS and enable communications with e-paper. I would be very grateful if anyonce could help here.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0OTMwMTc0LDEwNTAxNjk1NjgsLTEzMz
-AwNTM3MTMsLTE3NzY1MDY2MzAsLTk5NzI2NDYxMyw1NTQ1ODA3
-NzgsMTA1NDUzNzkzMSw4MDg3MzY1NTUsLTUxOTgwODIyLDE2Nj
-U5MzIxMDYsMTM5ODc0Njc5LC0yMzE1MjY1ODcsLTk1NjgxMzYw
-OCwtMTI4NzA0MDYyMywxMzA0NTAzOSw0NzYzODQyNTksNzMwNz
-czODgwLC0xMDM2NTA2OTI3LDE2ODgzODIyMDhdfQ==
+eyJoaXN0b3J5IjpbMTcxNDk2ODQxNSw2NDQ5MzAxNzQsMTA1MD
+E2OTU2OCwtMTMzMDA1MzcxMywtMTc3NjUwNjYzMCwtOTk3MjY0
+NjEzLDU1NDU4MDc3OCwxMDU0NTM3OTMxLDgwODczNjU1NSwtNT
+E5ODA4MjIsMTY2NTkzMjEwNiwxMzk4NzQ2NzksLTIzMTUyNjU4
+NywtOTU2ODEzNjA4LC0xMjg3MDQwNjIzLDEzMDQ1MDM5LDQ3Nj
+M4NDI1OSw3MzA3NzM4ODAsLTEwMzY1MDY5MjcsMTY4ODM4MjIw
+OF19
 -->
