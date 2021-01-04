@@ -44,7 +44,7 @@ ll /dev/spidev*;
     sudo ./build;
 
  - Confirm that it worked by running the `gpio readall` command and confirming there is a BCM column:
- ![gpio readall](https://github.com/Masatrad-com/e-Paper/blob/master/OrangePi/gpioreadall.png)
+ ![gpio readall](gpioreadall.png)
 
 ##### Python
 ```
@@ -81,11 +81,11 @@ cd python/examples
 sudo python xxx.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyNzgzMjIzLDEzOTMzNjIxNjgsMTcxND
-k2ODQxNSw2NDQ5MzAxNzQsMTA1MDE2OTU2OCwtMTMzMDA1Mzcx
-MywtMTc3NjUwNjYzMCwtOTk3MjY0NjEzLDU1NDU4MDc3OCwxMD
-U0NTM3OTMxLDgwODczNjU1NSwtNTE5ODA4MjIsMTY2NTkzMjEw
-NiwxMzk4NzQ2NzksLTIzMTUyNjU4NywtOTU2ODEzNjA4LC0xMj
-g3MDQwNjIzLDEzMDQ1MDM5LDQ3NjM4NDI1OSw3MzA3NzM4ODBd
-fQ==
+eyJoaXN0b3J5IjpbLTE2MjQyMjk5ODcsMTM5MzM2MjE2OCwxNz
+E0OTY4NDE1LDY0NDkzMDE3NCwxMDUwMTY5NTY4LC0xMzMwMDUz
+NzEzLC0xNzc2NTA2NjMwLC05OTcyNjQ2MTMsNTU0NTgwNzc4LD
+EwNTQ1Mzc5MzEsODA4NzM2NTU1LC01MTk4MDgyMiwxNjY1OTMy
+MTA2LDEzOTg3NDY3OSwtMjMxNTI2NTg3LC05NTY4MTM2MDgsLT
+EyODcwNDA2MjMsMTMwNDUwMzksNDc2Mzg0MjU5LDczMDc3Mzg4
+MF19
 -->
