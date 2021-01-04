@@ -135,7 +135,7 @@ void DEV_GPIO_Init(void)
 {
 	EPD_RST_PIN     = 17;
 	EPD_DC_PIN      = 25;
-	EPD_CS_PIN      = 8;
+	EPD_CS_PIN      = 7;
 	EPD_BUSY_PIN    = 24;
 
 	DEV_GPIO_Mode(EPD_RST_PIN, 1);
