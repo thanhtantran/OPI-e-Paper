@@ -37,7 +37,7 @@ class OrangePi:
     # Pin definition
     RST_PIN         = 17
     DC_PIN          = 25
-    CS_PIN          = 8
+    CS_PIN          = 7
     BUSY_PIN        = 24
 
     def __init__(self):
@@ -47,7 +47,7 @@ class OrangePi:
         self.GPIO = OPi.GPIO
         self.GPIO.setboard(self.GPIO.PCPCPLUS)
         self.GPIO.setmode(self.GPIO.BCM)
-
+        
         # SPI device, bus = 0, device = 0
         self.SPI = spidev.SpiDev(0, 0)
 
