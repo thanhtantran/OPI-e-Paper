@@ -30,7 +30,6 @@ sudo reboot now;
  - Confirm that spi is accessible and make it available for all users :
 ```
 ll /dev/spidev*;
-sudo chmod 666 /dev/spidev0.0
 ```
 ![spidev0.0](https://lh3.googleusercontent.com/u/0/d/1yJRSVAcWzIsOMU8RPNHjI1d5xYdBLaBG=w1920-h937-iv1)
 
@@ -47,6 +46,7 @@ sudo chmod 666 /dev/spidev0.0
 
 ##### Python
 ```
+# python2
 sudo apt-get update
 sudo apt-get install python-dev python-pip python-pil python-numpy
 sudo pip install setuptools
@@ -61,11 +61,42 @@ sudo pip install spidev
 git clone https://github.com/Masatrad-com/e-Paper.git /opt/e-Paper;
 cd /opt/e-Paper/OrangePi
 ```
+#### Running examples
+##### C codes
+Find the main.c file, uncomment the definition of e-Paper types, then compile and run the codes.
+```
+cd c
+make clean
+make
+sudo ./epd
+```
+##### python
 
+Run examples, xxx is the name of the e-Paper. For example, if you want to run codes of 2.13inch V2 e-Paper Module, you xxx should be epd_1in13_V2  
+```
+cd python/examples
+# python2
+sudo python xxx.py
+```
+
+ - Known issue: I still don't know why, but when I first run the python script for the first time after rebooting I get the following error:
+ > INFO:root:epd2in13_V2 Demo
+INFO:root:init and Clear
+Traceback (most recent call last):
+  File "examples/epd_2in13_V2_test.py", line 23, in <module>
+    epd.init(epd.FULL_UPDATE)
+  File "/opt/e-Paper/OrangePi/python/lib/waveshare_epd/epd2in13_V2.py", line 124, in init
+    if (epdconfig.module_init() != 0):
+  File "/opt/e-Paper/OrangePi/python/lib/waveshare_epd/epdconfig.py", line 70, in module_init
+    self.GPIO.setup(self.CS_PIN, self.GPIO.OUT)
+ValueError: This channel is already in use by system as SPI0_CS.
+
+For the moment the only workaround that I found is runing first  a couple of times the c example. That frees the systemp SPI0_CS and enable communications with e-paper. I would be very grateful if anyonce could help here.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDUzNzkzMSw4MDg3MzY1NTUsLTUxOT
-gwODIyLDE2NjU5MzIxMDYsMTM5ODc0Njc5LC0yMzE1MjY1ODcs
-LTk1NjgxMzYwOCwtMTI4NzA0MDYyMywxMzA0NTAzOSw0NzYzOD
-QyNTksNzMwNzczODgwLC0xMDM2NTA2OTI3LDE2ODgzODIyMDhd
-fQ==
+eyJoaXN0b3J5IjpbNjQ0OTMwMTc0LDEwNTAxNjk1NjgsLTEzMz
+AwNTM3MTMsLTE3NzY1MDY2MzAsLTk5NzI2NDYxMyw1NTQ1ODA3
+NzgsMTA1NDUzNzkzMSw4MDg3MzY1NTUsLTUxOTgwODIyLDE2Nj
+U5MzIxMDYsMTM5ODc0Njc5LC0yMzE1MjY1ODcsLTk1NjgxMzYw
+OCwtMTI4NzA0MDYyMywxMzA0NTAzOSw0NzYzODQyNTksNzMwNz
+czODgwLC0xMDM2NTA2OTI3LDE2ODgzODIyMDhdfQ==
 -->
