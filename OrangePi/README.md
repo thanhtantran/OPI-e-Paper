@@ -80,26 +80,12 @@ cd python/examples
 # python2
 sudo python xxx.py
 ```
-
- - Known issue: I still don't know why, but when I first run the python script for the first time after rebooting I get the following error:
- > INFO:root:epd2in13_V2 Demo
-INFO:root:init and Clear
-Traceback (most recent call last):
-  File "examples/epd_2in13_V2_test.py", line 23, in <module>
-    epd.init(epd.FULL_UPDATE)
-  File "/opt/e-Paper/OrangePi/python/lib/waveshare_epd/epd2in13_V2.py", line 124, in init
-    if (epdconfig.module_init() != 0):
-  File "/opt/e-Paper/OrangePi/python/lib/waveshare_epd/epdconfig.py", line 70, in module_init
-    self.GPIO.setup(self.CS_PIN, self.GPIO.OUT)
-ValueError: This channel is already in use by system as SPI0_CS.
-
-For the moment the only workaround that I found is runing first  a couple of times the c example. That frees the systemp SPI0_CS and enable communications with e-paper. I would be very grateful if anyonce could help here.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzM2MjE2OCwxNzE0OTY4NDE1LDY0ND
-kzMDE3NCwxMDUwMTY5NTY4LC0xMzMwMDUzNzEzLC0xNzc2NTA2
-NjMwLC05OTcyNjQ2MTMsNTU0NTgwNzc4LDEwNTQ1Mzc5MzEsOD
-A4NzM2NTU1LC01MTk4MDgyMiwxNjY1OTMyMTA2LDEzOTg3NDY3
-OSwtMjMxNTI2NTg3LC05NTY4MTM2MDgsLTEyODcwNDA2MjMsMT
-MwNDUwMzksNDc2Mzg0MjU5LDczMDc3Mzg4MCwtMTAzNjUwNjky
-N119
+eyJoaXN0b3J5IjpbOTcwMTgwMTI0LDEzOTMzNjIxNjgsMTcxND
+k2ODQxNSw2NDQ5MzAxNzQsMTA1MDE2OTU2OCwtMTMzMDA1Mzcx
+MywtMTc3NjUwNjYzMCwtOTk3MjY0NjEzLDU1NDU4MDc3OCwxMD
+U0NTM3OTMxLDgwODczNjU1NSwtNTE5ODA4MjIsMTY2NTkzMjEw
+NiwxMzk4NzQ2NzksLTIzMTUyNjU4NywtOTU2ODEzNjA4LC0xMj
+g3MDQwNjIzLDEzMDQ1MDM5LDQ3NjM4NDI1OSw3MzA3NzM4ODBd
+fQ==
 -->
